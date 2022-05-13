@@ -1,0 +1,18 @@
+[package]
+name = "roscdmx"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bitflags="1.3.2"
+log="0.4.6"
+rosc="0.7.0"
+argparse = "0.2.2"
+
+[dependencies.windows]
+version = "0.36.1"
+features = [
+    "Win32_Media",
+]
